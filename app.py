@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 
 # Page Configuration
-st.set_page_config(page_title="Eco-Gram AI", page_icon="🌱", layout="wide")
+st.set_page_config(page_title="Eco-Check AI", page_icon="🌱", layout="wide")
 
 @st.cache_resource
 def load_model():
