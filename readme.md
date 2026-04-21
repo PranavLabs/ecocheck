@@ -2,7 +2,7 @@
 
 **Eco-Gram** is an AI-powered tool designed to quantify the environmental impact of urban spaces using computer vision. By analyzing images for biodiversity, transportation modes, and electronic waste, it generates a "Sustainability Score" to evaluate the ecological health of a captured scene.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge.svg)](https://ecocheck.streamlit.app/)
+[![Streamlit App](https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png)](https://ecocheck.streamlit.app/)
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/)
 [![YOLOv8](https://img.shields.io/badge/Model-YOLOv8s-green.svg)](https://github.com/ultralytics/ultralytics)
 
