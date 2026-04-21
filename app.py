@@ -1,9 +1,15 @@
 import os
-os.environ["QT_QPA_PLATFORM"] = "offscreen"
-os.environ["LD_PRELOAD"] = "" 
+os.environ["OPENCV_VIDEOIO_PRIORITY_BACKEND"] = "0"
 
 import streamlit as st
+# Force import cv2 headless before ultralytics
+try:
+    import cv2
+except ImportError:
+    pass
+
 from ultralytics import YOLO
+# ... rest of your code
 from PIL import Image
 import numpy as np
 
