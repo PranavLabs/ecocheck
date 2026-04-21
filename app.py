@@ -1,3 +1,7 @@
+import os
+os.environ["QT_QPA_PLATFORM"] = "offscreen"
+os.environ["LD_PRELOAD"] = "" 
+
 import streamlit as st
 from ultralytics import YOLO
 from PIL import Image
