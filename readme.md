@@ -1,4 +1,4 @@
-# 🌱 Eco-Gram: Advanced Urban Sustainability Auditor
+# 🌱 Eco-Check: Advanced Urban Sustainability Auditor
 
 **Eco-Gram** is an AI-powered tool designed to quantify the environmental impact of urban spaces using computer vision. By analyzing images for biodiversity, transportation modes, and electronic waste, it generates a "Sustainability Score" to evaluate the ecological health of a captured scene.
 
