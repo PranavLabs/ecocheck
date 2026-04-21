@@ -54,7 +54,7 @@ def analyze_vibe(found_labels):
     return {cat: [l for l in found_labels if l in items] for cat, items in categories.items()}
 
 # --- UI LAYOUT ---
-st.title("🌱 Eco-Gram: Advanced Urban Auditor")
+st.title("🌱 Eco-Check: Advanced Urban Auditor")
 st.write("Scan images to analyze biodiversity vs. industrial footprint.")
 
 uploaded_file = st.file_uploader("Upload an image (Instagram screenshot, street view, or room photo)...", type=["jpg", "jpeg", "png"])
